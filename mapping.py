@@ -1,6 +1,6 @@
 str="aduhiwuetrotnoerutyiweoreqfdfg"
 
-arr=[0]*25
+arr=[0]*26
 
 for i in range (len(str)):
     arr[ord(str[i])-97]+=1
